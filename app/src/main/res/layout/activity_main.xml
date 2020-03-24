@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/background">
 
     <TextView
         android:id="@+id/GPATextView"
@@ -25,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="35dp"
+        android:onClick="check"
         android:text="@string/compute_gpa"
         app:layout_constraintBottom_toTopOf="@+id/GPATextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -127,7 +129,7 @@
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/Course3EditText"
+        android:id="@+id/course3EditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
@@ -153,7 +155,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toEndOf="@+id/course4TextView"
-        app:layout_constraintTop_toBottomOf="@+id/Course3EditText"
+        app:layout_constraintTop_toBottomOf="@+id/course3EditText"
         android:importantForAutofill="no" />
 
     <EditText

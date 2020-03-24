@@ -6,7 +6,7 @@ public class GradeValidator {
     public GradeValidator(){
 
     }
-    public Boolean Validate(EditText field){
+    public Boolean validate(EditText field){
         String gradeText = field.getText().toString();
         double grade = Double.parseDouble(gradeText);
         if (gradeText.length() == 0)
