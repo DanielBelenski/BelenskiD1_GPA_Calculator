@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- main activity screen -->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +9,7 @@
     tools:context=".MainActivity"
     android:id="@+id/background">
 
+    <!-- Text view for resulting GPA -->
     <TextView
         android:id="@+id/GPATextView"
         android:layout_width="100dp"
@@ -21,6 +24,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- Button to activate the computation/clearing of fields -->
     <Button
         android:id="@+id/clearAndComputeButton"
         android:layout_width="wrap_content"
@@ -33,6 +37,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- Course number display -->
     <TextView
         android:id="@+id/course5TextView"
         android:layout_width="wrap_content"
@@ -44,6 +49,7 @@
         app:layout_constraintBottom_toTopOf="@+id/clearAndComputeButton"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- Course number display -->
     <TextView
         android:id="@+id/course4TextView"
         android:layout_width="wrap_content"
@@ -55,6 +61,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/course3TextView" />
 
+    <!-- Course number display -->
     <TextView
         android:id="@+id/course3TextView"
         android:layout_width="wrap_content"
@@ -66,6 +73,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/course2TextView" />
 
+    <!-- Course number display -->
     <TextView
         android:id="@+id/course1TextView"
         android:layout_width="wrap_content"
@@ -77,6 +85,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
 
+    <!-- Course number display -->
     <TextView
         android:id="@+id/course2TextView"
         android:layout_width="wrap_content"
@@ -88,6 +97,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/course1TextView" />
 
+    <!-- App title view -->
     <TextView
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
@@ -98,6 +108,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- grade input -->
     <EditText
         android:id="@+id/course1EditText"
         android:layout_width="wrap_content"
@@ -113,6 +124,7 @@
         app:layout_constraintTop_toBottomOf="@+id/titleTextView"
         android:importantForAutofill="no" />
 
+    <!-- grade input -->
     <EditText
         android:id="@+id/course2EditText"
         android:layout_width="wrap_content"
@@ -128,6 +140,7 @@
         app:layout_constraintTop_toBottomOf="@+id/course1EditText"
         android:importantForAutofill="no" />
 
+    <!-- grade input -->
     <EditText
         android:id="@+id/course3EditText"
         android:layout_width="wrap_content"
@@ -143,6 +156,7 @@
         app:layout_constraintTop_toBottomOf="@+id/course2EditText"
         android:importantForAutofill="no" />
 
+    <!-- grade input -->
     <EditText
         android:id="@+id/course4EditText"
         android:layout_width="wrap_content"
@@ -158,6 +172,7 @@
         app:layout_constraintTop_toBottomOf="@+id/course3EditText"
         android:importantForAutofill="no" />
 
+    <!-- grade input -->
     <EditText
         android:id="@+id/course5EditText"
         android:layout_width="wrap_content"

@@ -1,3 +1,4 @@
+<!-- Strings extracted from hard coded values -->
 <resources>
     <string name="app_name">BelenskiD1_GPA_Calculator</string>
     <string name="GPA">GPA</string>
