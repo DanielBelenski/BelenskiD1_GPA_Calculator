@@ -18,15 +18,15 @@ public class GradeValidator {
         //getting text from object
         String gradeText = field.getText().toString();
 
+        //if there is no text
+        if (gradeText.equals(""))
+            return false;
+
         //getting numeric data from text
         double grade = Double.parseDouble(gradeText);
 
-        //if there is no text
-        if (gradeText.length() == 0)
-            return false;
-
         //if number entered is too large
-        else if (grade > 100)
+        if (grade > 100)
             return false;
 
         //if number entered is too low
